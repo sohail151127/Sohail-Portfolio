@@ -23,10 +23,10 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    firstName: "Sohail",
+    lastName: "Sohail",
+    initials: "M.S", // the example uses first and last, but feel free to use three or more if you like.
+    position: "React JS Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -37,40 +37,40 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in the Pakistan'
         },
         {
-            emoji: "💼",
-            text: "Systems Engineer at Google"
+            emoji: "💻",
+            text: "Open to Work"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "sohail151127@gmail.com"
         }
     ],
     socials: [
         {
-            link: "https://facebook.com",
+            link: "https://www.facebook.com/sohail151127/",
             icon: 'fa fa-facebook',
             label: 'facebook'
         },
         {
-            link: "https://instagram.com",
+            link: "https://www.instagram.com/sohail151127/",
             icon: 'fa fa-instagram',
             label: 'instagram'
         },
         {
-            link: "https://github.com",
+            link: "https://github.com/sohail151127",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/muhammad-sohail-physicist/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
         {
-            link: "https://twitter.com",
+            link: "https://twitter.com/Muhamma74315271",
             icon: "fa fa-twitter",
             label: 'twitter'
         }
@@ -78,28 +78,28 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Sohail. I've done M.Phil. Physics from University of Agriculture Faisalabad. I am a self learner. You can hire me!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['Html','CSS','bootstrap','javascript (ES6)','TypeScript', 'React JS (context-api, axios, hooks, localStorage, events, react-router, protected-routes, react-redux, redux-toolKit, Thunks)' ,"react-bootStrap",'material-ui','firebase-authentication','lodash', 'git', 'github', 'figma'],
+            exposedTo: ['python','nodejs','figma']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
+            label: 'Reading',
             emoji: '📖'
         },
         {
-            label: 'theater',
+            label: 'Sleeping',
             emoji: '🎭'
         },
         {
-            label: 'movies',
+            label: 'Movies',
             emoji: '🎥'
         },
         {
-            label: 'cooking',
+            label: 'Travelling',
             emoji: '🌶'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
@@ -107,33 +107,33 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "1. notesApp (localStorage)",
+            live: "https://localstorage-notes-app-sohail151127.netlify.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/sohail151127/notes-app", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "2. notesApp (API)",
+            live: "https://api-notes-app.netlify.app/",
+            source: "https://github.com/sohail151127/api-notes-app",
             image: mock2
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "3. addToCart (Redux-ToolKit)",
+            live: "https://redux-add-to-cart-app.netlify.app/",
+            source: "https://github.com/sohail151127/redux-addToCart",
             image: mock3
         },
         {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "4. adminLte (API)",
+            live: "https://admin-lte-food-api.netlify.app/",
+            source: "https://github.com/sohail151127/adminLte-foodApi",
             image: mock4
         },
         {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "5. movieApp (Firebase-Auth)",
+            live: "https://movieapp123.firebaseapp.com/",
+            source: "https://github.com/sohail151127/movie-app",
             image: mock5
         }
     ]

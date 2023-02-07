@@ -12,21 +12,22 @@ const links = [
         active: 'home'
     },
     {
+        name: 'Portfolio',
+        to: '/portfolio',
+        active: 'portfolio'
+    },
+    {
         name: 'About Me',
         to: '/about',
         active: 'about'
     },
-    {
-        name: info.initials,
-        type: 'initials',
-        to: '/',
-        active: 'home'
-    },
-    {
-        name: 'Portfolio',
-        to: '/portfolio',
-        active: 'portfolio'
-    }
+    // {
+    //     name: info.initials,
+    //     type: 'initials',
+    //     to: '/',
+    //     active: 'home'
+    // },
+    
 ]
 
 export default function Navbar({darkMode, handleClick}) {
@@ -37,13 +38,16 @@ export default function Navbar({darkMode, handleClick}) {
         <Box component={'nav'} width={'100%'}>
             <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'}
                  gap={{xs: '2rem', md: '8rem'}}
-                 textTransform={'lowercase'} fontSize={'1rem'}>
+                  fontSize={'1rem'}>
                 {links.map((link, index) => (
                     <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
                          sx={{borderImageSource: info.gradient}}>
+
                         <Link to={link.to} onClick={() => setActive(link.active)} className={Style.link}>
-                            {!link.type && <p style={{padding: '0.5rem 0'}}>{link.name}</p>}
-                            {link.type && <h1>{link.name}</h1>}
+                            {!link.type && 
+                            <p style={{padding: '0.5rem 0'}}>{link.name}</p>
+                            }
+                            {/* {link.type && <h3>{link.name}</h3>} */}
                         </Link>
                     </Box>
                 ))}
