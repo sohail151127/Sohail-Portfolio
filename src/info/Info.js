@@ -26,7 +26,7 @@ export const info = {
     firstName: "Sohail",
     lastName: "Sohail",
     initials: "M.S", // the example uses first and last, but feel free to use three or more if you like.
-    position: "React JS Developer",
+    position: "Shopify Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -43,45 +43,45 @@ export const info = {
             emoji: "💻",
             text: "Open to Work"
         },
-        {
-            emoji: "📧",
-            text: "sohail151127@gmail.com"
-        }
+        // {
+        //     emoji: "📧",
+        //     text: "sohail151127@gmail.com"
+        // }
     ],
     socials: [
-        {
-            link: "https://www.facebook.com/sohail151127/",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://www.instagram.com/sohail151127/",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
+        // {
+        //     link: "https://www.facebook.com/sohail151127/",
+        //     icon: 'fa fa-facebook',
+        //     label: 'facebook'
+        // },
+        // {
+        //     link: "https://www.instagram.com/sohail151127/",
+        //     icon: 'fa fa-instagram',
+        //     label: 'instagram'
+        // },
         {
             link: "https://github.com/sohail151127",
             icon: "fa fa-github",
             label: 'github'
         },
-        {
-            link: "https://www.linkedin.com/in/muhammad-sohail-physicist/",
-            icon: "fa fa-linkedin",
-            label: 'linkedin'
-        },
-        {
-            link: "https://twitter.com/Muhamma74315271",
-            icon: "fa fa-twitter",
-            label: 'twitter'
-        }
+        // {
+        //     link: "https://www.linkedin.com/in/muhammad-sohail-physicist/",
+        //     icon: "fa fa-linkedin",
+        //     label: 'linkedin'
+        // },
+        // {
+        //     link: "https://twitter.com/Muhamma74315271",
+        //     icon: "fa fa-twitter",
+        //     label: 'twitter'
+        // }
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Sohail. I've done M.Phil. Physics from University of Agriculture Faisalabad. I am a self learner. You can hire me!",
+    bio: "As a Top-Rated Shopify Developer, I have years of experience and am among the top 10% of Shopify experts on Upwork. Known for my exceptional communication and 100% job success rate, I deliver high-quality eCommerce solutions with professionalism and expertise. You can hire me!",
     skills:
         {
-            proficientWith: ['Html','CSS','bootstrap','javascript (ES6)','TypeScript', 'React JS (context-api, axios, hooks, localStorage, events, react-router, protected-routes, react-redux, redux-toolKit, Thunks)' ,"react-bootStrap",'material-ui','firebase-authentication','lodash', 'git', 'github', 'figma'],
+            proficientWith: ['Shopify', 'Shopify Plus','Html','CSS', 'liquid', 'javascript (ES6)','bootstrap','TypeScript', 'React JS (context-api, axios, hooks, localStorage, events, react-router, protected-routes, react-redux, redux-toolKit, Thunks)' ,"react-bootStrap",'material-ui','firebase-authentication','lodash', 'git', 'github', 'figma'],
             exposedTo: ['python','nodejs','figma']
         }
     ,
